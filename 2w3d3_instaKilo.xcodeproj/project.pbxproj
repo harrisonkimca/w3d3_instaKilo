@@ -14,6 +14,8 @@
 		888A3DCB1F167F190078B3C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888A3DCA1F167F190078B3C3 /* Assets.xcassets */; };
 		888A3DCE1F167F190078B3C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888A3DCC1F167F190078B3C3 /* LaunchScreen.storyboard */; };
 		888A3DD91F167F190078B3C3 /* _w3d3_instaKiloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A3DD81F167F190078B3C3 /* _w3d3_instaKiloTests.m */; };
+		888A3DE51F16AFD40078B3C3 /* PhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A3DE41F16AFD40078B3C3 /* PhotoViewCell.m */; };
+		888A3DE81F16B1510078B3C3 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A3DE71F16B1510078B3C3 /* Photo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		888A3DD41F167F190078B3C3 /* 2w3d3_instaKiloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2w3d3_instaKiloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		888A3DD81F167F190078B3C3 /* _w3d3_instaKiloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _w3d3_instaKiloTests.m; sourceTree = "<group>"; };
 		888A3DDA1F167F190078B3C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888A3DE31F16AFD40078B3C3 /* PhotoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewCell.h; sourceTree = "<group>"; };
+		888A3DE41F16AFD40078B3C3 /* PhotoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewCell.m; sourceTree = "<group>"; };
+		888A3DE61F16B1510078B3C3 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		888A3DE71F16B1510078B3C3 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				888A3DC21F167F190078B3C3 /* AppDelegate.m */,
 				888A3DC41F167F190078B3C3 /* ViewController.h */,
 				888A3DC51F167F190078B3C3 /* ViewController.m */,
+				888A3DE31F16AFD40078B3C3 /* PhotoViewCell.h */,
+				888A3DE61F16B1510078B3C3 /* Photo.h */,
+				888A3DE71F16B1510078B3C3 /* Photo.m */,
+				888A3DE41F16AFD40078B3C3 /* PhotoViewCell.m */,
 				888A3DC71F167F190078B3C3 /* Main.storyboard */,
 				888A3DCA1F167F190078B3C3 /* Assets.xcassets */,
 				888A3DCC1F167F190078B3C3 /* LaunchScreen.storyboard */,
@@ -216,6 +226,8 @@
 				888A3DC61F167F190078B3C3 /* ViewController.m in Sources */,
 				888A3DC31F167F190078B3C3 /* AppDelegate.m in Sources */,
 				888A3DC01F167F190078B3C3 /* main.m in Sources */,
+				888A3DE81F16B1510078B3C3 /* Photo.m in Sources */,
+				888A3DE51F16AFD40078B3C3 /* PhotoViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				888A3DDF1F167F190078B3C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		888A3DE01F167F190078B3C3 /* Build configuration list for PBXNativeTarget "2w3d3_instaKiloTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				888A3DE21F167F190078B3C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
