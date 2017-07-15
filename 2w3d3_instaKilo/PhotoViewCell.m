@@ -10,4 +10,16 @@
 
 @implementation PhotoViewCell
 
+- (void)setPhoto:(Photo *)photo
+{
+    _photo = photo;
+    [self configure];
+}
+
+- (void)configure
+{
+    self.imageView.image = self.photo.image
+    ;
+}
+
 @end

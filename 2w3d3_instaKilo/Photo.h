@@ -10,11 +10,11 @@
 
 @interface Photo : NSObject
 
-@property (strong, nonatomic) UIImage *photo;
+@property (strong, nonatomic) UIImage *image;
 @property (strong, nonatomic) NSString *location;
 @property (strong, nonatomic) NSString *subject;
 
-- (instancetype)initWithPhoto:(UIImage*)photo andLocation:(NSString*)location andSubject:(NSString*)subject;
+- (instancetype)initWithImage:(UIImage*)image andLocation:(NSString*)location andSubject:(NSString*)subject;
 
 
 @end

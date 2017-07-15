@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88692B3A1F19C6BA00B7D831 /* CollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88692B391F19C6BA00B7D831 /* CollectionReusableView.m */; };
 		888A3DC01F167F190078B3C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A3DBF1F167F190078B3C3 /* main.m */; };
 		888A3DC31F167F190078B3C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A3DC21F167F190078B3C3 /* AppDelegate.m */; };
 		888A3DC61F167F190078B3C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A3DC51F167F190078B3C3 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88692B381F19C6BA00B7D831 /* CollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionReusableView.h; sourceTree = "<group>"; };
+		88692B391F19C6BA00B7D831 /* CollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableView.m; sourceTree = "<group>"; };
 		888A3DBB1F167F190078B3C3 /* 2w3d3_instaKilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2w3d3_instaKilo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		888A3DBF1F167F190078B3C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		888A3DC11F167F190078B3C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,10 +95,12 @@
 				888A3DC41F167F190078B3C3 /* ViewController.h */,
 				888A3DC51F167F190078B3C3 /* ViewController.m */,
 				888A3DE31F16AFD40078B3C3 /* PhotoViewCell.h */,
+				888A3DE41F16AFD40078B3C3 /* PhotoViewCell.m */,
 				888A3DE61F16B1510078B3C3 /* Photo.h */,
 				888A3DE71F16B1510078B3C3 /* Photo.m */,
-				888A3DE41F16AFD40078B3C3 /* PhotoViewCell.m */,
 				888A3DC71F167F190078B3C3 /* Main.storyboard */,
+				88692B381F19C6BA00B7D831 /* CollectionReusableView.h */,
+				88692B391F19C6BA00B7D831 /* CollectionReusableView.m */,
 				888A3DCA1F167F190078B3C3 /* Assets.xcassets */,
 				888A3DCC1F167F190078B3C3 /* LaunchScreen.storyboard */,
 				888A3DCF1F167F190078B3C3 /* Info.plist */,
@@ -228,6 +233,7 @@
 				888A3DC01F167F190078B3C3 /* main.m in Sources */,
 				888A3DE81F16B1510078B3C3 /* Photo.m in Sources */,
 				888A3DE51F16AFD40078B3C3 /* PhotoViewCell.m in Sources */,
+				88692B3A1F19C6BA00B7D831 /* CollectionReusableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
